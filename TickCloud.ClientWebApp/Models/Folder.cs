@@ -19,6 +19,6 @@ namespace TickCloud.ClientWebApp.Models
        // public ICollection<Folder> SubFolders { get; set; }
         public Folder ParentFolder { get; set; }
         public int? ParentFolderId { get; set; }
-       // public ICollection<FileMaster> SubFiles { get; set; }
+        public ICollection<FileMaster> SubFiles { get; set; }
     }
 }
